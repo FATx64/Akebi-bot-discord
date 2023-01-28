@@ -19,6 +19,6 @@ async def on_message(message):
 
     if message.content.startwith(prefix):
         if message.content == prefix + "hello":
-            await message.channel.send("hello there!")
+            await message.channel.send("test!")
 
 client.run('MTA2ODg4ODM0Njk3OTQ3NTQ2Ng.GPQcd5.74gjkIFs8HJd0UX9n-lHWAFupRLKUrRM7M5Hs4')
